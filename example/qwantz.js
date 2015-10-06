@@ -1,7 +1,7 @@
 var util = require('util');
 var fs = require('fs');
 
-var markov = require('markov');
+var markov = require('../');
 var m = markov(1);
 
 var s = fs.createReadStream(__dirname + '/qwantz.txt');

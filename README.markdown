@@ -14,7 +14,7 @@ qwantz.js:
     var util = require('util');
     var fs = require('fs');
     
-    var markov = require('markov');
+    var markov = require('@rowanmanning/markov');
     var m = markov(1);
     
     var s = fs.createReadStream(__dirname + '/qwantz.txt');
