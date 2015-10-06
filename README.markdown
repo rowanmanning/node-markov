@@ -121,3 +121,13 @@ generated if limit is specified.
 ---------------------
 
 Search for a starting key in `text` and then call `.fill(key, limit)` on it.
+
+.load(db)
+---------
+
+Load the database from a JavaScript object.
+
+.save()
+-------
+
+Get the current database object.

@@ -185,6 +185,14 @@ module.exports = function (order) {
     self.word = function (cur) {
         return db[cur] && deck.pick(db[cur].words);
     };
+
+    self.load = function (database) {
+        db = database;
+    };
+
+    self.save = function () {
+        return db;
+    };
     
     return self;
 };
