@@ -3,6 +3,8 @@ markov
 
 Generate markov chains for chatbots and freestyle rap contests.
 
+**⚠️ NOTE: This project is no longer being maintained. If you're interested in taking over maintenance, please contact me. Or check the upstream project**
+
 examples
 ========
 
